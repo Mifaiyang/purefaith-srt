@@ -1,0 +1,17 @@
+请先解压并安装/调用 srt-zh-en-subtitle-translator，不要只把它当参考资料。
+
+任务：把我提供的中文 SRT 翻译成英文，并交付英文 SRT 和中英对照 Excel。
+
+强制要求：
+1. 先完整读取 SKILL.md 和 references/protocols/simple-delivery.md
+2. 运行 doctor --require-xlsx；失败就停止并报告，不要手工造表
+3. 运行 prepare，读完 prepared.json，再按完整语义分组翻译
+4. 保留全部字幕编号、原始时间码、顺序和切句；英文句尾不留标点
+5. 写 source-bound subtitle.translation.v2 翻译 JSON
+6. 必须使用 deliver 命令生成交付物，不得自行设计或手工创建表格
+7. 必须交付 final.en.srt 和 bilingual-review.xlsx
+8. Excel 前五个可见列必须是：序号、中文、英文、英文修改版、时间线
+9. 只有 delivery-report.json 中 passed=true、source_bound=true 且所有 checks=true 才算完成
+10. 不要执行 learn、approve、promote、migrate 或 rollback
+
+最终不要只回复“已完成”，请列出所有交付文件路径、字幕条数和验证结果。

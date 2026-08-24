@@ -1,0 +1,7 @@
+interface:
+  display_name: "Context-Aware SRT Translator"
+  short_description: "Translate SRT and deliver a verified bilingual workbook"
+  default_prompt: "Use $srt-zh-en-subtitle-translator to translate this Chinese SRT and deliver a validated English SRT plus a Chinese-English XLSX review table."
+
+policy:
+  allow_implicit_invocation: true

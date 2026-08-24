@@ -1,0 +1,226 @@
+{
+  "$schema": "schemas/style-profile.schema.json",
+  "schema_version": "2.0",
+  "profile_id": "purefaith-factory-short-video-en",
+  "profile_name": "PUREFAITH factory short-video English",
+  "version": "2.0.0",
+  "status": "active",
+  "brand": "PUREFAITH",
+  "locale": "en-US",
+  "scope": {
+    "content_types": [
+      "factory-tour",
+      "corporate-story",
+      "production-process",
+      "employee-welfare"
+    ],
+    "speaker_roles": [
+      "founder",
+      "factory-owner",
+      "company-narrator"
+    ]
+  },
+  "rendering_rules": {
+    "canonical_sentence_punctuation": true,
+    "cue_terminal_punctuation": "strip",
+    "preserve_internal_punctuation": true
+  },
+  "remove_terminal_punctuation": true,
+  "review_ingestion": {
+    "reject_numeric_only_revisions": true,
+    "invalid_revised_values": [
+      "12",
+      "-",
+      "/",
+      "同上",
+      "same",
+      "same as above"
+    ],
+    "scope": "revised_english_cell_only"
+  },
+  "reject_numeric_only_revisions": true,
+  "invalid_revised_values": [
+    "12",
+    "-",
+    "/",
+    "同上",
+    "same",
+    "same as above"
+  ],
+  "translation_principles": [
+    "Reconstruct the complete thought across adjacent cues before translating",
+    "Use polished but conversational English for corporate factory-tour voiceovers",
+    "Preserve the speaker's first-person perspective and practical factory-owner tone",
+    "Translate the complete thought first, then distribute it across the original cue indexes",
+    "Keep each cue concise and allow grammar to flow naturally across cue boundaries",
+    "Prefer concrete factory vocabulary over abstract brochure language",
+    "Store canonical complete-thought English with normal sentence punctuation",
+    "Strip terminal punctuation only when rendering each PUREFAITH subtitle cue"
+  ],
+  "preferred_phrases": [
+    {
+      "rule_id": "tour-opening-show-around",
+      "priority": 80,
+      "match_mode": "all_in_window",
+      "zh_contains": [
+        "带大家",
+        "走进"
+      ],
+      "preferred_en": "Let me show you around {place} today.",
+      "canonical_en": "Let me show you around {place} today.",
+      "context_scope": {
+        "domains": [
+          "factory-tour"
+        ],
+        "cue_window": 3,
+        "speaker_perspectives": [
+          "first-person"
+        ]
+      },
+      "note": "Use only when the nearby cues name the place being introduced"
+    },
+    {
+      "rule_id": "pu-toughest-job",
+      "priority": 90,
+      "match_mode": "any_in_window",
+      "zh_contains": [
+        "苦工位"
+      ],
+      "preferred_en": "one of the toughest jobs in furniture manufacturing",
+      "canonical_en": "PU production is one of the toughest jobs in furniture manufacturing.",
+      "context_scope": {
+        "domains": [
+          "PU",
+          "furniture-manufacturing"
+        ],
+        "cue_window": 2
+      },
+      "note": "Approved wording for the PU-workshop context"
+    },
+    {
+      "rule_id": "pu-ventilation-treatment-system",
+      "priority": 95,
+      "match_mode": "all_in_window",
+      "zh_contains": [
+        "通风",
+        "废气处理"
+      ],
+      "preferred_en": "ventilation, fume extraction, and treatment systems",
+      "canonical_en": "Most of the investment went into ventilation, fume extraction, and treatment systems.",
+      "context_scope": {
+        "domains": [
+          "PU",
+          "environmental-protection"
+        ],
+        "cue_window": 3
+      },
+      "note": "Do not expand a standalone mention of ventilation into the full system"
+    },
+    {
+      "rule_id": "employee-health-harm",
+      "priority": 90,
+      "match_mode": "any_in_window",
+      "zh_contains": [
+        "伤身体"
+      ],
+      "preferred_en": "take a real toll on employees' health",
+      "canonical_en": "The work can take a real toll on employees' health.",
+      "context_scope": {
+        "domains": [
+          "employee-welfare",
+          "PU"
+        ],
+        "cue_window": 2,
+        "polarity": "harm"
+      },
+      "note": "Use for physical harm or burden, not neutral mentions of employee health"
+    },
+    {
+      "rule_id": "employee-health-priority",
+      "priority": 90,
+      "match_mode": "any_in_window",
+      "zh_contains": [
+        "身体健康"
+      ],
+      "preferred_en": "our employees' health",
+      "canonical_en": "Our employees' health will always come first.",
+      "context_scope": {
+        "domains": [
+          "employee-welfare"
+        ],
+        "cue_window": 2,
+        "polarity": "priority"
+      },
+      "note": "Use for statements that prioritize employee health"
+    },
+    {
+      "rule_id": "value-care-for-employees",
+      "priority": 100,
+      "match_mode": "exact_or_contained",
+      "zh_contains": [
+        "善待员工"
+      ],
+      "preferred_en": "Take care of our employees",
+      "canonical_en": "Take care of our employees.",
+      "context_scope": {
+        "domains": [
+          "corporate-values"
+        ],
+        "cue_window": 1
+      },
+      "note": "Approved company-value wording"
+    },
+    {
+      "rule_id": "value-consistent-quality",
+      "priority": 100,
+      "match_mode": "exact_or_contained",
+      "zh_contains": [
+        "稳住品质"
+      ],
+      "preferred_en": "Keep quality consistent",
+      "canonical_en": "Keep quality consistent.",
+      "context_scope": {
+        "domains": [
+          "corporate-values"
+        ],
+        "cue_window": 1
+      },
+      "note": "Approved company-value wording"
+    },
+    {
+      "rule_id": "value-deliver-on-time",
+      "priority": 100,
+      "match_mode": "exact_or_contained",
+      "zh_contains": [
+        "守住交期"
+      ],
+      "preferred_en": "Deliver on time",
+      "canonical_en": "Deliver on time.",
+      "context_scope": {
+        "domains": [
+          "corporate-values"
+        ],
+        "cue_window": 1
+      },
+      "note": "Approved company-value wording"
+    },
+    {
+      "rule_id": "comments-call-to-action",
+      "priority": 85,
+      "match_mode": "any_in_window",
+      "zh_contains": [
+        "评论区",
+        "留言"
+      ],
+      "preferred_en": "Let us know in the comments",
+      "canonical_en": "Let us know in the comments.",
+      "context_scope": {
+        "domains": [
+          "call-to-action"
+        ],
+        "cue_window": 1
+      },
+      "note": "Default PUREFAITH call to action"
+    }
+  ]
+}

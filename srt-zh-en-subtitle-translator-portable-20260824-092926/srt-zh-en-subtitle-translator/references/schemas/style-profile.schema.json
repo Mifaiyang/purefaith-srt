@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "style-profile.schema.json",
+  "title": "PUREFAITH subtitle style profile",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "profile_id",
+    "profile_name",
+    "version",
+    "status",
+    "brand",
+    "locale",
+    "scope",
+    "rendering_rules",
+    "review_ingestion",
+    "translation_principles",
+    "preferred_phrases"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "profile_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profile_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "active",
+        "deprecated"
+      ]
+    },
+    "brand": {
+      "type": "string"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "rendering_rules": {
+      "type": "object",
+      "required": [
+        "canonical_sentence_punctuation",
+        "cue_terminal_punctuation",
+        "preserve_internal_punctuation"
+      ]
+    },
+    "review_ingestion": {
+      "type": "object"
+    },
+    "translation_principles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_phrases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "rule_id",
+          "priority",
+          "match_mode",
+          "zh_contains",
+          "preferred_en",
+          "canonical_en",
+          "context_scope"
+        ],
+        "properties": {
+          "rule_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "match_mode": {
+            "enum": [
+              "all_in_window",
+              "any_in_window",
+              "exact_or_contained"
+            ]
+          },
+          "zh_contains": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "preferred_en": {
+            "type": "string",
+            "minLength": 1,
+            "not": {
+              "pattern": "\\s/\\s"
+            }
+          },
+          "canonical_en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "context_scope": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

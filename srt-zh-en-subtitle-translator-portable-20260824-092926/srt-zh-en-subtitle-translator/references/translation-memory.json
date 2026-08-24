@@ -1,0 +1,590 @@
+{
+  "examples": [
+    {
+      "zh": "经过智能称重系统",
+      "draft_en": "they pass through an intelligent weighing system",
+      "final_en": "they will pass through an intelligent weighing system"
+    },
+    {
+      "zh": "流入到下层的输送线",
+      "draft_en": "and move onto the lower conveyor line",
+      "final_en": "and move to the lower conveyor line"
+    },
+    {
+      "zh": "最后到末端的封箱设备",
+      "draft_en": "Finally, they reach the end-of-line sealing equipment",
+      "final_en": "Finally, they will reach the end-of-line sealing equipment"
+    },
+    {
+      "zh": "进行封箱",
+      "draft_en": "for carton sealing",
+      "final_en": "for sealing"
+    },
+    {
+      "zh": "联动我们的机器人",
+      "draft_en": "they are linked with our robots",
+      "final_en": "they will be linked with our robots"
+    },
+    {
+      "zh": "这样我们的纸箱就可以很好",
+      "draft_en": "This way, our cartons can be",
+      "final_en": "In this way, our cartons can be"
+    },
+    {
+      "zh": "码在我们的栈板上了",
+      "draft_en": "onto the pallets",
+      "final_en": "on the pallets"
+    },
+    {
+      "zh": "投入百万以上",
+      "draft_en": "The investment alone is over one million yuan",
+      "final_en": "The total investment is over one million RMB"
+    },
+    {
+      "zh": "交到用户手上",
+      "draft_en": "before the product reaches the user",
+      "final_en": "when the product reaches the user"
+    },
+    {
+      "zh": "我们希望给到的是惊喜",
+      "draft_en": "What we hope to deliver is a pleasant surprise",
+      "final_en": "What we want to deliver is a pleasant surprise"
+    },
+    {
+      "zh": "可以评论区告诉我哦~",
+      "draft_en": "Let me know in the comments",
+      "final_en": "Leave your comments please"
+    },
+    {
+      "zh": "我当初来到这家公司的时候",
+      "draft_en": "",
+      "final_en": "When I joined this company in the beginning"
+    },
+    {
+      "zh": "全公司都没有一台电脑",
+      "draft_en": "",
+      "final_en": "there's even no computer at all in the whole company"
+    },
+    {
+      "zh": "那时候我的工具",
+      "draft_en": "",
+      "final_en": "that time, my only tool"
+    },
+    {
+      "zh": "就是一台计算器",
+      "draft_en": "",
+      "final_en": "was just a calculator"
+    },
+    {
+      "zh": "加上我自己的大脑",
+      "draft_en": "",
+      "final_en": "and my brain"
+    },
+    {
+      "zh": "其实当时的市场行情是很好的",
+      "draft_en": "",
+      "final_en": "The market was actually very strong at the time"
+    },
+    {
+      "zh": "人找货的年代嘛",
+      "draft_en": "",
+      "final_en": "It was the time when demands more than supply"
+    },
+    {
+      "zh": "只要有货就有人要",
+      "draft_en": "",
+      "final_en": "As long as you have stock, someone will take it"
+    },
+    {
+      "zh": "最大的压力其实就是在生产端",
+      "draft_en": "",
+      "final_en": "The biggest pressure was really on production part"
+    },
+    {
+      "zh": "我只要进到那个工厂的大门",
+      "draft_en": "",
+      "final_en": "Once I walked through the factory gate"
+    },
+    {
+      "zh": "各个业务就围堵我",
+      "draft_en": "",
+      "final_en": "every salesperson stopped me"
+    },
+    {
+      "zh": "各项数据",
+      "draft_en": "",
+      "final_en": "All the data"
+    },
+    {
+      "zh": "其实都是通过计算器",
+      "draft_en": "",
+      "final_en": "was calculated with a calculator"
+    },
+    {
+      "zh": "一个一个敲出来的",
+      "draft_en": "",
+      "final_en": "one by one"
+    },
+    {
+      "zh": "每个工作写到便签纸上",
+      "draft_en": "",
+      "final_en": "Every task was written on a sticky note"
+    },
+    {
+      "zh": "分配到对应的岗位人员手上",
+      "draft_en": "",
+      "final_en": "and dispatched to the person in charge of that post"
+    },
+    {
+      "zh": "就每天拿着个便签纸",
+      "draft_en": "",
+      "final_en": "Every day, I carried those sticky notes"
+    },
+    {
+      "zh": "去到各个车间",
+      "draft_en": "",
+      "final_en": "into each workshop"
+    },
+    {
+      "zh": "分配到各个岗位",
+      "draft_en": "",
+      "final_en": "and assigned the work to each position"
+    },
+    {
+      "zh": "久而久之",
+      "draft_en": "",
+      "final_en": "As time goes by"
+    },
+    {
+      "zh": "其实这些事情都对我来说",
+      "draft_en": "",
+      "final_en": "all of these things, for me"
+    },
+    {
+      "zh": "都是烂熟于心",
+      "draft_en": "",
+      "final_en": "became second nature"
+    },
+    {
+      "zh": "这些工作习惯呢",
+      "draft_en": "",
+      "final_en": "These work habits"
+    },
+    {
+      "zh": "其实成了我自己的肌肉记忆",
+      "draft_en": "",
+      "final_en": "eventually became my own muscle memory"
+    },
+    {
+      "zh": "就像现在",
+      "draft_en": "",
+      "final_en": "Even now"
+    },
+    {
+      "zh": "我们同事经常会笑我",
+      "draft_en": "",
+      "final_en": "my colleagues often make jokes on me"
+    },
+    {
+      "zh": "为什么老板娘开会要带个计算器",
+      "draft_en": "",
+      "final_en": "asking why the lady boss still brings a calculator to meetings"
+    },
+    {
+      "zh": "身上当时真的只有3万多块",
+      "draft_en": "with just over 30,000 RMB to my name",
+      "final_en": "with just over 30,000 RMB in my pocket"
+    },
+    {
+      "zh": "对于创业并没有很具象化的概念",
+      "draft_en": "I didn't really have a clear idea of starting a business",
+      "final_en": "I didn't really have a clear idea about starting a business"
+    },
+    {
+      "zh": "也没有一个完整的商业计划",
+      "draft_en": "I didn't have a complete business plan either",
+      "final_en": "I didn’t have a complete business plan, either"
+    },
+    {
+      "zh": "变现逻辑就更别提了",
+      "draft_en": "Let alone a monetization model",
+      "final_en": "I hadn’t even thought through how the business would make money"
+    },
+    {
+      "zh": "其实什么都不懂",
+      "draft_en": "Honestly, I knew nothing",
+      "final_en": "truth be told, I knew nothing"
+    },
+    {
+      "zh": "当时那个情况下就是压力大",
+      "draft_en": "Under those circumstances, the pressure was huge",
+      "final_en": "the pressure was really huge at that time"
+    },
+    {
+      "zh": "负担重倒是真的",
+      "draft_en": "And the burden was really heavy",
+      "final_en": "and I had a lot on my shoulders"
+    },
+    {
+      "zh": "那几年家里其实发生挺多事的",
+      "draft_en": "A lot happened in my family during those years",
+      "final_en": "Actually, me and my family went through a lot during that time"
+    },
+    {
+      "zh": "其实每一天睁开眼都是开支",
+      "draft_en": "Every day started with expenses",
+      "final_en": "Every day came with expenses"
+    },
+    {
+      "zh": "我感觉我身上是有那种赌性的",
+      "draft_en": "I think I do have that gambler's spirit in me",
+      "final_en": "I think I do have that gambler's streak in me"
+    },
+    {
+      "zh": "如果要选择安稳的话呢",
+      "draft_en": "If I had chosen stability",
+      "final_en": "If I had chosen to be stable"
+    },
+    {
+      "zh": "我想着我只要能干出来",
+      "draft_en": "I thought, as long as I could make it work",
+      "final_en": "I thought, as long as I could make it"
+    },
+    {
+      "zh": "野蛮生长",
+      "draft_en": "Everything was growing fast",
+      "final_en": "It was a time of rapid growth"
+    },
+    {
+      "zh": "要是放到今天",
+      "draft_en": "If it were today",
+      "final_en": "If I were doing the same thing today"
+    },
+    {
+      "zh": "无论时机",
+      "draft_en": "whether it was the timing",
+      "final_en": "considering the time"
+    },
+    {
+      "zh": "市场环境",
+      "draft_en": "the market environment",
+      "final_en": "the market conditions"
+    },
+    {
+      "zh": "还是认知思维",
+      "draft_en": "or the way people think",
+      "final_en": "and the way people think now"
+    },
+    {
+      "zh": "其实都不可能成功的",
+      "draft_en": "I don't think it would have been possible to succeed",
+      "final_en": "I honestly don't think it would work"
+    },
+    {
+      "zh": "当时这个客户",
+      "draft_en": "At the time, this customer",
+      "final_en": "Back then，this customer"
+    },
+    {
+      "zh": "也是国内座椅行业的头部",
+      "draft_en": "was one of China's leading chair manufacturers",
+      "final_en": "was also a top‑tier player in China’s seating‑manufacturing sector"
+    },
+    {
+      "zh": "我认识到他们的采购",
+      "draft_en": "I met someone from their purchasing team",
+      "final_en": "I got to know their purchasing officer"
+    },
+    {
+      "zh": "知道他们到处都在找这个供应商",
+      "draft_en": "and learned they were searching everywhere for a supplier",
+      "final_en": "I learned they were searching everywhere for a suitable supplier"
+    },
+    {
+      "zh": "听说他们当时那个情况下的扶手",
+      "draft_en": "I heard the armrests they had at the time",
+      "final_en": "From what I heard"
+    },
+    {
+      "zh": "连孔位都是对不准的",
+      "draft_en": "didn't even have aligned mounting holes",
+      "final_en": "even the mounting holes of their armrests didn’t line‑up properly"
+    },
+    {
+      "zh": "这就是机会",
+      "draft_en": "that was an opportunity",
+      "final_en": "I thought that was an opportunity"
+    },
+    {
+      "zh": "也是我们纯信第一款扶手",
+      "draft_en": "was also Chunxin's very first armrest model",
+      "final_en": "was also PUREFAITH's very first armrest model"
+    },
+    {
+      "zh": "其实08年那个时候",
+      "draft_en": "Back in 2008",
+      "final_en": "Actually, back in 2008"
+    },
+    {
+      "zh": "最艰难的事情肯定就是资金周转",
+      "draft_en": "The hardest challenge was definitely cash flow",
+      "final_en": "the biggest challenge was definitely cash flow management"
+    },
+    {
+      "zh": "回了货款",
+      "draft_en": "Whenever a customer payment came in",
+      "final_en": "Whenever we received payments from customers"
+    },
+    {
+      "zh": "就是投机器投设备",
+      "draft_en": "I put it into machinery and equipment",
+      "final_en": "we would invest the money into machinery and equipment"
+    },
+    {
+      "zh": "优化生产",
+      "draft_en": "to improve production",
+      "final_en": "continuously improving and optimizing our production"
+    },
+    {
+      "zh": "当时钢材从3,000多涨到6,000多一吨",
+      "draft_en": "Steel went from over RMB 3,000\nto over RMB 6,000 per ton",
+      "final_en": "At that time, steel prices increased from over 3,000 RMB to more than 6,000 RMB per ton"
+    },
+    {
+      "zh": "订购一年的钢材",
+      "draft_en": "by buying a year's supply of steel",
+      "final_en": "by placing orders with him"
+    },
+    {
+      "zh": "也是想着力所能及的情况下",
+      "draft_en": "to do whatever I could",
+      "final_en": "to help him within my ability"
+    },
+    {
+      "zh": "能够支持一下他",
+      "draft_en": "to support him",
+      "final_en": "and give him some support"
+    },
+    {
+      "zh": "当时我那个情况",
+      "draft_en": "Given my situation at the time",
+      "final_en": "However, given my situation at that time"
+    },
+    {
+      "zh": "一方面钢材大涨的情况下",
+      "draft_en": "for one, steel prices had surged",
+      "final_en": "on one hand, steel prices were rising rapidly"
+    },
+    {
+      "zh": "产品也涨价了",
+      "draft_en": "and product prices had risen too",
+      "final_en": "and our product prices increased accordingly"
+    },
+    {
+      "zh": "而我的提货价是 3000 多提的",
+      "draft_en": "while I was still buying at just over RMB 3,000",
+      "final_en": "But my purchase price was still based on the original price of just over 3,000 RMB per ton"
+    },
+    {
+      "zh": "利润空间肯定就大了",
+      "draft_en": "That gave me a much bigger profit margin",
+      "final_en": "So naturally, our profit margin became much higher"
+    },
+    {
+      "zh": "我依然是记忆犹新",
+      "draft_en": "I still remember it vividly",
+      "final_en": "I still remember this experience very clearly"
+    },
+    {
+      "zh": "当时在钟村一个小学旁边",
+      "draft_en": "Near an elementary school in Zhongcun",
+      "final_en": "So we rented a 300-sq-m sheet-metal factory"
+    },
+    {
+      "zh": "租了一个300平米的铁皮厂房",
+      "draft_en": "I rented a 300-square-meter corrugated metal workshop",
+      "final_en": "right next to a primary school in Zhongcun"
+    },
+    {
+      "zh": "一种我们老家叫“牛毛毡”的东西",
+      "draft_en": "with something we called \"cow-hair felt\" back home",
+      "final_en": "with something we call 'cow-hair felt' back in my hometown"
+    },
+    {
+      "zh": "后来条件好些了",
+      "draft_en": "Later, conditions improved",
+      "final_en": "Later，as things started looking up"
+    },
+    {
+      "zh": "我都会单独的给父亲整个小房间",
+      "draft_en": "I set up a separate small room for my father",
+      "final_en": "I set up a separate room for my father"
+    },
+    {
+      "zh": "其实每一次搬厂",
+      "draft_en": "Every factory move",
+      "final_en": "Actually，every factory move"
+    },
+    {
+      "zh": "所以每次搬厂的时候",
+      "draft_en": "So every time we moved the factory",
+      "final_en": "So every time when we moved the factory"
+    },
+    {
+      "zh": "公司规模和业绩也都不是很稳定",
+      "draft_en": "and our size and performance were still unstable",
+      "final_en": "both the scale of our company and our sales were constantly fluctuating"
+    },
+    {
+      "zh": "今天就带大家",
+      "draft_en": "Today, let me take you",
+      "final_en": "let me show you around",
+      "context_before": "智能制造基地",
+      "context_after": "走进我们的PU车间"
+    },
+    {
+      "zh": "走进我们的PU车间",
+      "draft_en": "inside our PU workshop",
+      "final_en": "our PU workshop today",
+      "context_before": "今天就带大家",
+      "context_after": "懂行的都知道"
+    },
+    {
+      "zh": "懂行的都知道",
+      "draft_en": "Anyone in the industry knows",
+      "final_en": "Anyone familiar with the industry knows",
+      "context_before": "走进我们的PU车间",
+      "context_after": "PU工序是家具行业"
+    },
+    {
+      "zh": "PU工序是家具行业",
+      "draft_en": "PU production in the furniture industry",
+      "final_en": "that PU production is",
+      "context_before": "懂行的都知道",
+      "context_after": "出了名的苦工位"
+    },
+    {
+      "zh": "出了名的苦工位",
+      "draft_en": "is known as one of the toughest jobs",
+      "final_en": "one of the toughest jobs in furniture manufacturing",
+      "context_before": "PU工序是家具行业",
+      "context_after": "传统车间气味重烟雾大"
+    },
+    {
+      "zh": "传统车间气味重烟雾大",
+      "draft_en": "Traditional workshops have strong odors and heavy fumes",
+      "final_en": "Traditional workshops are often filled with strong odors and heavy fumes",
+      "context_before": "出了名的苦工位",
+      "context_after": "作业环境特别差"
+    },
+    {
+      "zh": "员工干活又累又伤身体",
+      "draft_en": "The work is exhausting and harmful to employees' health",
+      "final_en": "The work is exhausting and can take a real toll on employees' health"
+    },
+    {
+      "zh": "所以我也投入了300多万",
+      "draft_en": "That's why I invested over 3 million RMB",
+      "final_en": "That's why I invested more than RMB 3 million",
+      "context_before": "员工干活又累又伤身体",
+      "context_after": "全面升级车间"
+    },
+    {
+      "zh": "全面升级车间",
+      "draft_en": "to comprehensively upgrade the workshop",
+      "final_en": "to completely upgrade the workshop",
+      "context_before": "所以我也投入了300多万",
+      "context_after": "设备和环保设施"
+    },
+    {
+      "zh": "设备和环保设施",
+      "draft_en": "equipment and environmental protection facilities",
+      "final_en": "including both the equipment and environmental protection systems",
+      "context_before": "全面升级车间",
+      "context_after": "大部分的资金也投入到了"
+    },
+    {
+      "zh": "通风和废气处理系统上",
+      "draft_en": "ventilation and exhaust gas treatment systems",
+      "final_en": "ventilation, fume extraction, and treatment systems",
+      "context_before": "大部分的资金也投入到了",
+      "context_after": "现在车间基本没"
+    },
+    {
+      "zh": "什么刺鼻异味",
+      "draft_en": "no pungent odors",
+      "final_en": "no harsh or irritating odors",
+      "context_before": "现在车间基本没",
+      "context_after": "我做工厂21年"
+    },
+    {
+      "zh": "一直觉得效率产能虽然重要",
+      "draft_en": "Efficiency and capacity are important",
+      "final_en": "and while efficiency and output matter",
+      "context_before": "我做工厂21年",
+      "context_after": "但员工的身体健康"
+    },
+    {
+      "zh": "但员工的身体健康",
+      "draft_en": "but our employees' health",
+      "final_en": "our employees' health",
+      "context_before": "一直觉得效率产能虽然重要",
+      "context_after": "始终排在第一位"
+    },
+    {
+      "zh": "始终排在第一位",
+      "draft_en": "always comes first",
+      "final_en": "will always come first",
+      "context_before": "但员工的身体健康",
+      "context_after": "我们从小作坊"
+    },
+    {
+      "zh": "吃过太多亏",
+      "draft_en": "We've learned many hard lessons",
+      "final_en": "We've faced plenty of setbacks",
+      "context_before": "摸爬滚打到现在",
+      "context_after": "踩过很多坑"
+    },
+    {
+      "zh": "踩过很多坑",
+      "draft_en": "and made plenty of costly mistakes",
+      "final_en": "and made more than a few costly mistakes along the way",
+      "context_before": "吃过太多亏",
+      "context_after": "善待员工"
+    },
+    {
+      "zh": "善待员工",
+      "draft_en": "Treat employees well",
+      "final_en": "Take care of our employees",
+      "context_before": "踩过很多坑",
+      "context_after": "稳住品质"
+    },
+    {
+      "zh": "稳住品质",
+      "draft_en": "Maintain consistent quality",
+      "final_en": "Keep quality consistent",
+      "context_before": "善待员工",
+      "context_after": "守住交期"
+    },
+    {
+      "zh": "这才是我们做工厂的底色",
+      "draft_en": "These are the values at the heart of our factory",
+      "final_en": "Those are the values our factory is built on",
+      "context_before": "守住交期",
+      "context_after": "大家还有什么想看的"
+    },
+    {
+      "zh": "员工干活又累又伤身体",
+      "draft_en": "The work is exhausting and harmful to employees' health",
+      "final_en": "The work is exhausting and can take a real toll on employees'health",
+      "context_before": "作业环境特别差",
+      "context_after": "所以我也投入了300多万"
+    }
+  ],
+  "notes": [
+    "Use business-approved final English as the source of truth.",
+    "Prefer recurring phrasing patterns found in examples.",
+    "Do not infer glossary terms unless they repeat clearly or the user confirms them."
+  ],
+  "example_count": 108
+}

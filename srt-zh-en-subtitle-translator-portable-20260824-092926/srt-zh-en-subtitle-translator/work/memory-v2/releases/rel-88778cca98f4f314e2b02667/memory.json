@@ -1,0 +1,2309 @@
+{
+  "schema_version": "2.0",
+  "release_id": "rel-88778cca98f4f314e2b02667",
+  "created_at": "2026-08-12T08:32:44Z",
+  "parent_release_id": null,
+  "source": {
+    "origin": "candidate_promotion",
+    "candidate_ids": [
+      "cand-0c10226db121e0c7cf5b6b6f",
+      "cand-10a4865029c79883c16ef8d2",
+      "cand-136c76852cb56e5e11c91628",
+      "cand-1b0900f1971a405e6b5471ed",
+      "cand-23cb99fe5d071829415b10a1",
+      "cand-2677dbd89dd3958d6049e642",
+      "cand-300c3c70f0e1b2c0541ba044",
+      "cand-3a08dabd51b261c7631c7694",
+      "cand-3c3a3b7129104fe75dc8bfc1",
+      "cand-476c72f3ef4dcc806f3462fc",
+      "cand-4b58b0631b73ae0912c740fd",
+      "cand-542364f7e143c7f3ad84277b",
+      "cand-58991e3abed3c64ecf6c16a0",
+      "cand-62619f14cb65105df39e4138",
+      "cand-67dcbb368979f07e7f637707",
+      "cand-69ecf9214a05035f8c848b9a",
+      "cand-8aa36dba83449d4b735bb91c",
+      "cand-8bde0548216a92b155e89dc7",
+      "cand-a229ee3f845e4952b89e74e9",
+      "cand-a9f4ec8f66478378648c1c6b",
+      "cand-aeacaacff0bbfe947d6acd2b",
+      "cand-c86c2debabee55ffc960a303",
+      "cand-cb8d98e0b9e2543882405b4a",
+      "cand-d9a30a5b08d67b3266bf122f",
+      "cand-e88f1202c921d2a5efd687ef",
+      "cand-e991e7f703d94633f0c8f9e6",
+      "cand-f3b83de0c0240c0a47bc878b",
+      "cand-f506b0fedf186dc212ba3d1f",
+      "cand-f932cfc5466468884512f531"
+    ],
+    "review_event_ids": [
+      "review-03243c12244680f5f211a847",
+      "review-0e51fe100db9af3af272b6a8",
+      "review-234f002985d3c38286f53c0d",
+      "review-2993cb325303c5117d4f9cf5",
+      "review-38c7d193651db1d45b19cd2d",
+      "review-46ebded6df1f226606882992",
+      "review-50e82d9833171036f2df2f87",
+      "review-56f8c92b517252befd1c4e66",
+      "review-587e805a47f9eec9d3e2ab03",
+      "review-5975bdbd9419235caff0db27",
+      "review-685148b40750af3be88de113",
+      "review-76bf6e1f88b76614fa65da5e",
+      "review-83d6d9cd383e1b4ae08f96e7",
+      "review-86e17757fef08f13c3d630eb",
+      "review-890d8733a3b97b0b185a7004",
+      "review-9303ec29d8b6602a6e79f023",
+      "review-9ae2b9d5de2390639e8e1376",
+      "review-a47b76d18068b145bb3013b2",
+      "review-a4f282037224a6af7c69e78f",
+      "review-afb6e7a4250fa0284cefa8de",
+      "review-b55b9473697a7fadb58fca6e",
+      "review-cbcec47eed1ad3dede1bac1d",
+      "review-d1fc6fa7b14f3627f01993c5",
+      "review-d2047cd34181ff84a8b01f34",
+      "review-d78c9bb13106a7d89778abe0",
+      "review-dd44a38076f03becbee2ef88",
+      "review-e9ecac4085dac2bab712b4b7",
+      "review-ef0c94bef5433ed77486265d",
+      "review-efbdf261ec1072282fd2c643"
+    ],
+    "actor_id": "codex"
+  },
+  "policy_versions": {
+    "style_profile": "2.0.0",
+    "termbase": "1.0.0"
+  },
+  "record_count": 29,
+  "records_sha256": "dc5fe70eabf606dd608d72ce52bc8114d87aae64e7832d2d75e0cd34f669c0a3",
+  "records": [
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-d1fc6fa7b14f3627f01993c5",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 20,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-aeacaacff0bbfe947d6acd2b",
+        "candidate_event_id": "evt-8b7524189bd65de9a614a02d",
+        "review_event_id": "review-d1fc6fa7b14f3627f01993c5"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-001faa9b0f592fae78305ef2",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "最大程度上也实现了"
+        ],
+        "context_before": [
+          "产线上能机器代替的"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "绝不用人工",
+        "span": {
+          "cue_indexes": [
+            20
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-20"
+        },
+        "text": "绝不用人工"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "we don't do it manually.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 20,
+            "text": "we don't do it manually"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-03243c12244680f5f211a847",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 16,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-69ecf9214a05035f8c848b9a",
+        "candidate_event_id": "evt-d39d6c4b4b65341de9a0b0c3",
+        "review_event_id": "review-03243c12244680f5f211a847"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-0a8cf86e020c8cacdd1fdd29",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "其实每个车间"
+        ],
+        "context_before": [
+          "管理也更轻松"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "安全也更保障",
+        "span": {
+          "cue_indexes": [
+            16
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-16"
+        },
+        "text": "安全也更保障"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "with better security.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 16,
+            "text": "with better security"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-587e805a47f9eec9d3e2ab03",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:21Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 3,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-8bde0548216a92b155e89dc7",
+        "candidate_event_id": "evt-3916307981f79f58173defb9",
+        "review_event_id": "review-587e805a47f9eec9d3e2ab03"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-0e284679f97adc5cfeb8a95a",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "到自己干工厂"
+        ],
+        "context_before": [
+          "其实我心里是有要求和梦想的"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "从上一家做底盘的工厂出来",
+        "span": {
+          "cue_indexes": [
+            3
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-3"
+        },
+        "text": "从上一家做底盘的工厂出来"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "After leaving a factory that made chair mechanisms.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 3,
+            "text": "After leaving a factory that made chair mechanisms"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-a4f282037224a6af7c69e78f",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:21Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 1,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-67dcbb368979f07e7f637707",
+        "candidate_event_id": "evt-11572aaa997b6596ed6b8417",
+        "review_event_id": "review-a4f282037224a6af7c69e78f"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-0ec309366e23bf5a7b19ec3c",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "其实我心里是有要求和梦想的"
+        ],
+        "context_before": [],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "我对于想要建一个什么样的工厂",
+        "span": {
+          "cue_indexes": [
+            1
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-1"
+        },
+        "text": "我对于想要建一个什么样的工厂"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "I had a clear idea of the kind of factory I wanted to build.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 1,
+            "text": "I had a clear idea of the kind of factory I wanted to build"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-50e82d9833171036f2df2f87",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:23Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 36,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-476c72f3ef4dcc806f3462fc",
+        "candidate_event_id": "evt-e9ed2466129032835cc57d59",
+        "review_event_id": "review-50e82d9833171036f2df2f87"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-187693c063732a78b20357d3",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "我个人其实已经在这个行业30年了"
+        ],
+        "context_before": [
+          "避开行业低端的价格内卷"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "坚守长期主义",
+        "span": {
+          "cue_indexes": [
+            36
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-36"
+        },
+        "text": "坚守长期主义"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "while staying focused on the long term.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 36,
+            "text": "while staying focused on the long term"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-ef0c94bef5433ed77486265d",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 25,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-0c10226db121e0c7cf5b6b6f",
+        "candidate_event_id": "evt-9ed040031bc7113b687e2bf1",
+        "review_event_id": "review-ef0c94bef5433ed77486265d"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-28f31d6fdec77643b0d7138f",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "规模化制造的大本营"
+        ],
+        "context_before": [
+          "的现代化产业园"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "肇庆厂区其实作为我们",
+        "span": {
+          "cue_indexes": [
+            25
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-25"
+        },
+        "text": "肇庆厂区其实作为我们"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "Our Zhaoqing factory serves as.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 25,
+            "text": "Our Zhaoqing factory serves as"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-9303ec29d8b6602a6e79f023",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 32,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-a229ee3f845e4952b89e74e9",
+        "candidate_event_id": "evt-89c8a9f77324f0fb4cf87225",
+        "review_event_id": "review-9303ec29d8b6602a6e79f023"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-382afc719436fb9f41cfb45e",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "我想用高标准生产"
+        ],
+        "context_before": [
+          "肇庆负责高端"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "规模化制造的完整布局",
+        "span": {
+          "cue_indexes": [
+            32
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-32"
+        },
+        "text": "规模化制造的完整布局"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "at scale.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 32,
+            "text": "at scale"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-83d6d9cd383e1b4ae08f96e7",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 27,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-cb8d98e0b9e2543882405b4a",
+        "candidate_event_id": "evt-1bed9a4a7d112d5060e23a0d",
+        "review_event_id": "review-83d6d9cd383e1b4ae08f96e7"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-3fa6a7393861b19d10ebc782",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "也能支撑人体工学椅"
+        ],
+        "context_before": [
+          "规模化制造的大本营"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "既能承载电竞椅的基础量产",
+        "span": {
+          "cue_indexes": [
+            27
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-27"
+        },
+        "text": "既能承载电竞椅的基础量产"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "It handles mass production of gaming chairs.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 27,
+            "text": "It handles mass production of gaming chairs"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-d78c9bb13106a7d89778abe0",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:23Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 35,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-4b58b0631b73ae0912c740fd",
+        "candidate_event_id": "evt-4fcdb741f8791c218d8884e2",
+        "review_event_id": "review-d78c9bb13106a7d89778abe0"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-452b0b6540377600b8c977e3",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "坚守长期主义"
+        ],
+        "context_before": [
+          "支撑高价值的产品"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "避开行业低端的价格内卷",
+        "span": {
+          "cue_indexes": [
+            35
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-35"
+        },
+        "text": "避开行业低端的价格内卷"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "and avoid a race to the bottom on price.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 35,
+            "text": "and avoid a race to the bottom on price"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-9ae2b9d5de2390639e8e1376",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 28,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-a9f4ec8f66478378648c1c6b",
+        "candidate_event_id": "evt-dfb93bc749d2fd5d1abc01f9",
+        "review_event_id": "review-9ae2b9d5de2390639e8e1376"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-4e3b665452c50952aca664fb",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "的持续迭代试产"
+        ],
+        "context_before": [
+          "既能承载电竞椅的基础量产"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "也能支撑人体工学椅",
+        "span": {
+          "cue_indexes": [
+            28
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-28"
+        },
+        "text": "也能支撑人体工学椅"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "and supports ongoing development.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 28,
+            "text": "and supports ongoing development"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-5975bdbd9419235caff0db27",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:21Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 8,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-62619f14cb65105df39e4138",
+        "candidate_event_id": "evt-9470b61edc0d9246c3e17f41",
+        "review_event_id": "review-5975bdbd9419235caff0db27"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-52b510165f5386e5fad51717",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "我们的园区其实是从刷脸"
+        ],
+        "context_before": [
+          "第一是标准化"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "数字化的智能制造基地",
+        "span": {
+          "cue_indexes": [
+            8
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-8"
+        },
+        "text": "数字化的智能制造基地"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "digitally enabled smart manufacturing facility.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 8,
+            "text": "digitally enabled smart manufacturing facility"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-86e17757fef08f13c3d630eb",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 17,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-d9a30a5b08d67b3266bf122f",
+        "candidate_event_id": "evt-0e8d170d73077d379fa413a0",
+        "review_event_id": "review-86e17757fef08f13c3d630eb"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-6e8a2170ffe4e32bba0bf80a",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "也都有数字化看板"
+        ],
+        "context_before": [
+          "安全也更保障"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "其实每个车间",
+        "span": {
+          "cue_indexes": [
+            17
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-17"
+        },
+        "text": "其实每个车间"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "Each workshop.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 17,
+            "text": "Each workshop"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-46ebded6df1f226606882992",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 23,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-136c76852cb56e5e11c91628",
+        "candidate_event_id": "evt-64e2a09b047b98024d6758bc",
+        "review_event_id": "review-46ebded6df1f226606882992"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-77ebdeb6bea4ae6ebb360f75",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "的现代化产业园"
+        ],
+        "context_before": [
+          "机器与人工的协同作业"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "第二是适配长期发展",
+        "span": {
+          "cue_indexes": [
+            23
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-23"
+        },
+        "text": "第二是适配长期发展"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "Second, it had to be a modern industrial park.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 23,
+            "text": "Second, it had to be a modern industrial park"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-890d8733a3b97b0b185a7004",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 31,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-3a08dabd51b261c7631c7694",
+        "candidate_event_id": "evt-8ccf4514b1cf6fafadf39061",
+        "review_event_id": "review-890d8733a3b97b0b185a7004"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-7c560a4d94b7d9f9c6662921",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "规模化制造的完整布局"
+        ],
+        "context_before": [
+          "形成了南沙统筹品牌研发和业务"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "肇庆负责高端",
+        "span": {
+          "cue_indexes": [
+            31
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-31"
+        },
+        "text": "肇庆负责高端"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "while Zhaoqing focuses on high-end manufacturing.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 31,
+            "text": "while Zhaoqing focuses on high-end manufacturing"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-a47b76d18068b145bb3013b2",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 26,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-23cb99fe5d071829415b10a1",
+        "candidate_event_id": "evt-b85089954bc3af58c712a802",
+        "review_event_id": "review-a47b76d18068b145bb3013b2"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-925d553346aead80634ca8d9",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "既能承载电竞椅的基础量产"
+        ],
+        "context_before": [
+          "肇庆厂区其实作为我们"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "规模化制造的大本营",
+        "span": {
+          "cue_indexes": [
+            26
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-26"
+        },
+        "text": "规模化制造的大本营"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "our main base for large-scale manufacturing.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 26,
+            "text": "our main base for large-scale manufacturing"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-0e51fe100db9af3af272b6a8",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 14,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-c86c2debabee55ffc960a303",
+        "candidate_event_id": "evt-5702c01418430fcd17d1262f",
+        "review_event_id": "review-0e51fe100db9af3af272b6a8"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-9414d0cc3d5a8c62b7d8163b",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "管理也更轻松"
+        ],
+        "context_before": [
+          "到食堂宿舍都是全智能化系统化"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "非常的方便快捷",
+        "span": {
+          "cue_indexes": [
+            14
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-14"
+        },
+        "text": "非常的方便快捷"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "It's fast and convenient.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 14,
+            "text": "It's fast and convenient"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-234f002985d3c38286f53c0d",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 29,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-2677dbd89dd3958d6049e642",
+        "candidate_event_id": "evt-b7026de242b38c86b54b85c9",
+        "review_event_id": "review-234f002985d3c38286f53c0d"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-94436b6994de0df6f9096643",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "形成了南沙统筹品牌研发和业务"
+        ],
+        "context_before": [
+          "也能支撑人体工学椅"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "的持续迭代试产",
+        "span": {
+          "cue_indexes": [
+            29
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-29"
+        },
+        "text": "的持续迭代试产"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "and pilot runs for ergonomic chairs.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 29,
+            "text": "and pilot runs for ergonomic chairs"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-56f8c92b517252befd1c4e66",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:21Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 11,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-1b0900f1971a405e6b5471ed",
+        "candidate_event_id": "evt-cb857b628967be559581d05f",
+        "review_event_id": "review-56f8c92b517252befd1c4e66"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-9c524d9c8cc9b9727c9e0723",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "乘坐哪个电梯"
+        ],
+        "context_before": [
+          "开始就是智慧园区"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "进到哪个楼层",
+        "span": {
+          "cue_indexes": [
+            11
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-11"
+        },
+        "text": "进到哪个楼层"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "The system knows which floor you're headed to.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 11,
+            "text": "The system knows which floor you're headed to"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-38c7d193651db1d45b19cd2d",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 18,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-300c3c70f0e1b2c0541ba044",
+        "candidate_event_id": "evt-e6c53467f15f9f6731d2cd64",
+        "review_event_id": "review-38c7d193651db1d45b19cd2d"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-9d370e3d07cf71ebe105e93a",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "产线上能机器代替的"
+        ],
+        "context_before": [
+          "其实每个车间"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "也都有数字化看板",
+        "span": {
+          "cue_indexes": [
+            18
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-18"
+        },
+        "text": "也都有数字化看板"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "has its own digital dashboard.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 18,
+            "text": "has its own digital dashboard"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-d2047cd34181ff84a8b01f34",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 15,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-542364f7e143c7f3ad84277b",
+        "candidate_event_id": "evt-70a8d84b66f8150b5c497152",
+        "review_event_id": "review-d2047cd34181ff84a8b01f34"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-9ec01bd1ddb5e929cd7594c8",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "安全也更保障"
+        ],
+        "context_before": [
+          "非常的方便快捷"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "管理也更轻松",
+        "span": {
+          "cue_indexes": [
+            15
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-15"
+        },
+        "text": "管理也更轻松"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "It's also easier to manage.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 15,
+            "text": "It's also easier to manage"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-76bf6e1f88b76614fa65da5e",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:21Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 13,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-f3b83de0c0240c0a47bc878b",
+        "candidate_event_id": "evt-d4117d71d76516a7f0d8aeda",
+        "review_event_id": "review-76bf6e1f88b76614fa65da5e"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-a24e97f8ff6c6e6e6a43d7b4",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "非常的方便快捷"
+        ],
+        "context_before": [
+          "乘坐哪个电梯"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "到食堂宿舍都是全智能化系统化",
+        "span": {
+          "cue_indexes": [
+            13
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-13"
+        },
+        "text": "到食堂宿舍都是全智能化系统化"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "Even the cafeteria and dorms are fully integrated into the smart system.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 13,
+            "text": "Even the cafeteria and dorms are fully integrated into the smart system"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-dd44a38076f03becbee2ef88",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 34,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-10a4865029c79883c16ef8d2",
+        "candidate_event_id": "evt-b4285036babe7f6a6d0459ed",
+        "review_event_id": "review-dd44a38076f03becbee2ef88"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-af73fe7330602ce008cffd57",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "避开行业低端的价格内卷"
+        ],
+        "context_before": [
+          "我想用高标准生产"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "支撑高价值的产品",
+        "span": {
+          "cue_indexes": [
+            34
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-34"
+        },
+        "text": "支撑高价值的产品"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "so we can create products with real value.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 34,
+            "text": "so we can create products with real value"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-685148b40750af3be88de113",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:23Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 39,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-e88f1202c921d2a5efd687ef",
+        "candidate_event_id": "evt-eb7b318a4f740d4f03dd48cd",
+        "review_event_id": "review-685148b40750af3be88de113"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-c658629e610a39d1bd5a607b",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [],
+        "context_before": [
+          "这可能也就是我这一辈子的事业"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "一辈子就想做好这一件事",
+        "span": {
+          "cue_indexes": [
+            39
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-39"
+        },
+        "text": "一辈子就想做好这一件事"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "I just want to spend my life doing this one thing well.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 39,
+            "text": "I just want to spend my life doing this one thing well"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-e9ecac4085dac2bab712b4b7",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 33,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-e991e7f703d94633f0c8f9e6",
+        "candidate_event_id": "evt-c30f6f8f7620b3db0772a1c6",
+        "review_event_id": "review-e9ecac4085dac2bab712b4b7"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-c8079a5bb30afad0640e261e",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "支撑高价值的产品"
+        ],
+        "context_before": [
+          "规模化制造的完整布局"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "我想用高标准生产",
+        "span": {
+          "cue_indexes": [
+            33
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-33"
+        },
+        "text": "我想用高标准生产"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "I want us to hold manufacturing to a high standard.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 33,
+            "text": "I want us to hold manufacturing to a high standard"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-afb6e7a4250fa0284cefa8de",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:21Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 2,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-8aa36dba83449d4b735bb91c",
+        "candidate_event_id": "evt-51640b0e4b58683fcfd475a6",
+        "review_event_id": "review-afb6e7a4250fa0284cefa8de"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-d5a8a84f17004fc3fbac14ab",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "从上一家做底盘的工厂出来"
+        ],
+        "context_before": [
+          "我对于想要建一个什么样的工厂"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "其实我心里是有要求和梦想的",
+        "span": {
+          "cue_indexes": [
+            2
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-2"
+        },
+        "text": "其实我心里是有要求和梦想的"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "I had my own standards and a vision for it.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 2,
+            "text": "I had my own standards and a vision for it"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-b55b9473697a7fadb58fca6e",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:21Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 6,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-58991e3abed3c64ecf6c16a0",
+        "candidate_event_id": "evt-7b228b4a7335a45731910780",
+        "review_event_id": "review-b55b9473697a7fadb58fca6e"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-dba7732e8d20b1796b25496f",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "第一是标准化"
+        ],
+        "context_before": [
+          "心中最理想的工厂"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "核心就是两大标准",
+        "span": {
+          "cue_indexes": [
+            6
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-6"
+        },
+        "text": "核心就是两大标准"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "It came down to two key standards.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 6,
+            "text": "It came down to two key standards"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-efbdf261ec1072282fd2c643",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:21Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 7,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-f932cfc5466468884512f531",
+        "candidate_event_id": "evt-7b21b75aa7124df345f4af1d",
+        "review_event_id": "review-efbdf261ec1072282fd2c643"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-e52a8cd157414c839a92d509",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "数字化的智能制造基地"
+        ],
+        "context_before": [
+          "核心就是两大标准"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "第一是标准化",
+        "span": {
+          "cue_indexes": [
+            7
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-7"
+        },
+        "text": "第一是标准化"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "First, it had to be a standardized.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 7,
+            "text": "First, it had to be a standardized"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-cbcec47eed1ad3dede1bac1d",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:21Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 5,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-f506b0fedf186dc212ba3d1f",
+        "candidate_event_id": "evt-40d0afd6493585ce0b4af397",
+        "review_event_id": "review-cbcec47eed1ad3dede1bac1d"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-f944c5257ee5d9b45f877ccc",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "核心就是两大标准"
+        ],
+        "context_before": [
+          "到自己干工厂"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "心中最理想的工厂",
+        "span": {
+          "cue_indexes": [
+            5
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-5"
+        },
+        "text": "心中最理想的工厂"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "I knew exactly what my ideal factory would look like.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 5,
+            "text": "I knew exactly what my ideal factory would look like"
+          }
+        ]
+      }
+    },
+    {
+      "approval": {
+        "status": "approved",
+        "review_event_id": "review-2993cb325303c5117d4f9cf5",
+        "reviewer_id": "user",
+        "approved_at": "2026-08-12T08:32:22Z",
+        "rationale": "User explicitly requested enabling the audited business revisions on 2026-08-12"
+      },
+      "classification": {
+        "brand": "PUREFAITH",
+        "domains": []
+      },
+      "lifecycle": {
+        "created_at": "2026-08-12T08:31:30Z",
+        "supersedes": [],
+        "promoted_at": "2026-08-12T08:32:44Z"
+      },
+      "policy_versions": {
+        "style_profile": "2.0.0",
+        "termbase": "1.0.0"
+      },
+      "provenance": {
+        "cue_index": 30,
+        "origin": "review_candidate",
+        "review_table": "work\\subtitle_nansha_reviewed\\review-clean.xlsx",
+        "source_sha256": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+        "candidate_id": "cand-3c3a3b7129104fe75dc8bfc1",
+        "candidate_event_id": "evt-4f643c1fa824099cda1825c1",
+        "review_event_id": "review-2993cb325303c5117d4f9cf5"
+      },
+      "quality": {
+        "flags": [
+          "single_cue_candidate_requires_context_review"
+        ]
+      },
+      "record_id": "tm-fb0917154d8d8d8a3fa3ea8a",
+      "retrieval": {
+        "eligible": true,
+        "reasons": []
+      },
+      "schema_version": "2.0",
+      "source": {
+        "context_after": [
+          "肇庆负责高端"
+        ],
+        "context_before": [
+          "的持续迭代试产"
+        ],
+        "context_links": {
+          "after_record_ids": [],
+          "before_record_ids": []
+        },
+        "language": "zh-CN",
+        "normalized_text": "形成了南沙统筹品牌研发和业务",
+        "span": {
+          "cue_indexes": [
+            30
+          ],
+          "document_id": "133d7f2ab7ce2a442b05a09f631fb30cdf9d7d8a9e2303f65fae1f08490491f3",
+          "kind": "complete_thought",
+          "sentence_group_id": "cue-30"
+        },
+        "text": "形成了南沙统筹品牌研发和业务"
+      },
+      "status": "approved",
+      "target": {
+        "canonical_text": "This gives us a complete setup: Nansha oversees branding, R&D, and business.",
+        "language": "en",
+        "locale": "en-US",
+        "rendered_cues": [
+          {
+            "cue_index": 30,
+            "text": "This gives us a complete setup: Nansha oversees branding, R&D, and business"
+          }
+        ]
+      }
+    }
+  ]
+}

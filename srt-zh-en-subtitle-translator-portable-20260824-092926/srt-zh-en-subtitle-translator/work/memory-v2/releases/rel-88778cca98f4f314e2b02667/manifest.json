@@ -1,0 +1,11 @@
+{
+  "schema_version": "2.0",
+  "release_id": "rel-88778cca98f4f314e2b02667",
+  "immutable": true,
+  "created_at": "2026-08-12T08:32:44Z",
+  "parent_release_id": null,
+  "memory_file": "memory.json",
+  "memory_sha256": "6883573ffdfba28f0859d32fe012899291e959964e428c20df9aaae051e0afbd",
+  "records_sha256": "dc5fe70eabf606dd608d72ce52bc8114d87aae64e7832d2d75e0cd34f669c0a3",
+  "record_count": 29
+}

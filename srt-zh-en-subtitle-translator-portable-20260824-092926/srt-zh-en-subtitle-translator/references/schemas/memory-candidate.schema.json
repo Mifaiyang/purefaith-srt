@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "memory-candidate.schema.json",
+  "title": "Append-only translation-memory candidate event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "candidate_id",
+    "event_id",
+    "event_type",
+    "created_at",
+    "status",
+    "raw",
+    "record"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "candidate_id": {
+      "type": "string",
+      "pattern": "^cand-[a-f0-9]{16,64}$"
+    },
+    "event_id": {
+      "type": "string",
+      "pattern": "^evt-[a-f0-9]{16,64}$"
+    },
+    "event_type": {
+      "const": "candidate_created"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "status": {
+      "const": "candidate"
+    },
+    "batch_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "record": {
+      "$ref": "memory-record.schema.json"
+    }
+  }
+}

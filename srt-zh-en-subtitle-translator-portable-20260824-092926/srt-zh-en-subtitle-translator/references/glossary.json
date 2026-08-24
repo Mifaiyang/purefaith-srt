@@ -1,0 +1,395 @@
+{
+  "$schema": "schemas/termbase.schema.json",
+  "schema_version": "1.0",
+  "termbase_id": "purefaith-zh-en",
+  "version": "1.0.0",
+  "status": "active",
+  "brand": "PUREFAITH",
+  "source_locale": "zh-CN",
+  "target_locale": "en-US",
+  "entries": [
+    {
+      "term_id": "term-brand-purefaith",
+      "source": {
+        "canonical": "纯信",
+        "aliases": [
+          "纯信科技"
+        ]
+      },
+      "target": {
+        "preferred": "PUREFAITH",
+        "allowed": [],
+        "forbidden": [
+          "Chunxin"
+        ]
+      },
+      "part_of_speech": "proper-noun",
+      "domain": [
+        "brand"
+      ],
+      "status": "confirmed",
+      "case_sensitive": true,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 64,
+          "note": "Business-approved brand rendering"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-pu-workshop",
+      "source": {
+        "canonical": "PU车间",
+        "aliases": []
+      },
+      "target": {
+        "preferred": "PU workshop",
+        "allowed": [],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "PU",
+        "factory-tour"
+      ],
+      "status": "confirmed",
+      "case_sensitive": true,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 89,
+          "note": "Approved PU-workshop tour wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-pu-production",
+      "source": {
+        "canonical": "PU工序",
+        "aliases": [
+          "PU生产"
+        ]
+      },
+      "target": {
+        "preferred": "PU production",
+        "allowed": [
+          "PU process"
+        ],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "PU",
+        "furniture-manufacturing"
+      ],
+      "status": "confirmed",
+      "case_sensitive": true,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 91,
+          "note": "Approved sentence-group wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-intelligent-weighing-system",
+      "source": {
+        "canonical": "智能称重系统",
+        "aliases": []
+      },
+      "target": {
+        "preferred": "intelligent weighing system",
+        "allowed": [],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "production-line",
+        "automation"
+      ],
+      "status": "confirmed",
+      "case_sensitive": false,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 1,
+          "note": "Approved factory-process wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-conveyor-line",
+      "source": {
+        "canonical": "输送线",
+        "aliases": [
+          "输送线路"
+        ]
+      },
+      "target": {
+        "preferred": "conveyor line",
+        "allowed": [],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "production-line"
+      ],
+      "status": "confirmed",
+      "case_sensitive": false,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 2,
+          "note": "Approved factory-process wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-sealing-equipment",
+      "source": {
+        "canonical": "封箱设备",
+        "aliases": []
+      },
+      "target": {
+        "preferred": "end-of-line sealing equipment",
+        "allowed": [
+          "carton-sealing equipment"
+        ],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "packaging-line"
+      ],
+      "status": "confirmed",
+      "case_sensitive": false,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 3,
+          "note": "Approved factory-process wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-pallet",
+      "source": {
+        "canonical": "栈板",
+        "aliases": [
+          "托盘"
+        ]
+      },
+      "target": {
+        "preferred": "pallet",
+        "allowed": [],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "packaging-line",
+        "logistics"
+      ],
+      "status": "confirmed",
+      "case_sensitive": false,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 7,
+          "note": "Approved factory-process wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-armrest",
+      "source": {
+        "canonical": "扶手",
+        "aliases": []
+      },
+      "target": {
+        "preferred": "armrest",
+        "allowed": [],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "office-chair",
+        "component"
+      ],
+      "status": "confirmed",
+      "case_sensitive": false,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 62,
+          "note": "Approved office-chair component wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-mounting-holes",
+      "source": {
+        "canonical": "孔位",
+        "aliases": [
+          "安装孔位"
+        ]
+      },
+      "target": {
+        "preferred": "mounting holes",
+        "allowed": [],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "office-chair",
+        "component"
+      ],
+      "status": "confirmed",
+      "case_sensitive": false,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 62,
+          "note": "Approved office-chair component wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-cash-flow-management",
+      "source": {
+        "canonical": "资金周转",
+        "aliases": []
+      },
+      "target": {
+        "preferred": "cash flow management",
+        "allowed": [
+          "cash flow"
+        ],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "corporate-story",
+        "finance"
+      ],
+      "status": "confirmed",
+      "case_sensitive": false,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 66,
+          "note": "Approved founder-story wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-environmental-protection-systems",
+      "source": {
+        "canonical": "环保设施",
+        "aliases": [
+          "环保系统"
+        ]
+      },
+      "target": {
+        "preferred": "environmental protection systems",
+        "allowed": [
+          "environmental protection facilities"
+        ],
+        "forbidden": []
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "environmental-protection",
+        "PU"
+      ],
+      "status": "confirmed",
+      "case_sensitive": false,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 97,
+          "note": "Approved PU-workshop wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    },
+    {
+      "term_id": "term-fume-treatment-system",
+      "source": {
+        "canonical": "通风和废气处理系统",
+        "aliases": [
+          "通风及废气处理系统"
+        ]
+      },
+      "target": {
+        "preferred": "ventilation, fume extraction, and treatment systems",
+        "allowed": [],
+        "forbidden": [
+          "exhaust gas treatment system"
+        ]
+      },
+      "part_of_speech": "noun",
+      "domain": [
+        "environmental-protection",
+        "PU"
+      ],
+      "status": "confirmed",
+      "case_sensitive": false,
+      "evidence": [
+        {
+          "source": "translation-memory.json",
+          "legacy_example": 98,
+          "note": "Explicit approved PU environmental-system wording"
+        }
+      ],
+      "approval": {
+        "basis": "approved-review-memory",
+        "owner": "PUREFAITH"
+      }
+    }
+  ]
+}
