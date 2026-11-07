@@ -55,8 +55,28 @@ For each group:
 6. Redistribute that English across the original cue IDs without merging,
    deleting, duplicating, or reordering cues.
 
-Keep grammar natural across cue boundaries. Do not make each cue an isolated
-sentence when the source thought spans several cues.
+### Split for English and read back in cue order
+
+- Keep the original cue IDs and timing. Move English phrases within the same
+  thought group to create natural pauses. Prefer clause or phrase boundaries.
+  Keep determiners with nouns, prepositions with their objects, and numbers
+  with units where timing permits. A sentence can span multiple cues.
+- Read the English once in playback order, using each cue's display duration
+  and treating gaps as pauses. Check whether the viewer can follow the syntax
+  before the next cue appears and whether key actions, contrasts, and outcomes
+  arrive close to the corresponding speech. Use audio if supplied.
+- Use 20 English characters per second as an initial warning threshold for
+  PUREFAITH. Count spaces and internal punctuation, treating each whitespace
+  run as one space. The final validation report lists cues above this target.
+  For a dense cue, shorten filler first, then rebalance adjacent cues within
+  the thought. Preserve facts, names, units, and claims. Flag any remaining
+  readability problem by cue ID for targeted review.
+- Example with three fixed slots: prefer "Before we start working together /
+  some clients tell me upfront / Mr. Chen, keep this project confidential"
+  over separating "make a point" from "to say" with "before working with us".
+  Check the actual durations and shorten further if needed. "That night my
+  phone / and our sales team's phones rang off the hook" is a natural
+  cross-cue continuation when both slots have enough reading time.
 
 ## 4. Apply the PUREFAITH voice
 
@@ -126,9 +146,9 @@ Treat these as hard failures:
 - Chinese residue in an English-only output;
 - remaining terminal punctuation under the PUREFAITH profile.
 
-Inspect warnings about reading speed, unusually long cues, number or unit
-consistency, and terminology. Resolve meaningful warnings before exporting the
-review table.
+Use the validation warnings to locate fast cues. Compare numbers, units, and
+terminology during the semantic readback. If any group needs a change, patch
+that group in the bound artifact and rerun the final file checks.
 
 ## 7. Keep deterministic boundaries
 

@@ -570,7 +570,22 @@ def validate_srt_pair(
     translated = parse_srt(translated_path)
     profile = load_style_profile(style_profile_path)
     issues = _compare_generated_structure(original, translated)
+    warnings = list(original.warnings) + list(translated.warnings)
+    reading_speed_target = 20
     for cue in translated.cues:
+        duration_ms = cue.end_ms - cue.start_ms
+        character_count = len(" ".join(cue.text.split()))
+        if english_only and duration_ms > 0:
+            cps = character_count * 1000 / duration_ms
+            if cps > reading_speed_target:
+                warnings.append({
+                    "code": "reading_speed_high",
+                    "index": cue.index,
+                    "duration_ms": duration_ms,
+                    "character_count": character_count,
+                    "characters_per_second": round(cps, 2),
+                    "target_characters_per_second": reading_speed_target,
+                })
         for issue in validate_final_text(cue.text, profile, english_only=english_only):
             issues.append(
                 {
@@ -591,7 +606,7 @@ def validate_srt_pair(
         "source_sha256": original.source_sha256,
         "cue_count": len(original.cues),
         "issues": issues,
-        "warnings": list(original.warnings) + list(translated.warnings),
+        "warnings": warnings,
     }
     if report_path:
         atomic_write_json(report_path, report)

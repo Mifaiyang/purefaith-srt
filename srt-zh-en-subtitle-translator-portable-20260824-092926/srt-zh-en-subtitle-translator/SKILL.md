@@ -1,6 +1,6 @@
 ---
 name: srt-zh-en-subtitle-translator
-description: Translate, review, validate, and safely learn from Chinese-to-English SRT subtitles while preserving source cue IDs, timestamps, encoding, BOM, newlines, and boundaries. Use for PUREFAITH/纯信科技 factory and corporate short videos, verified English SRT plus bilingual XLSX delivery, context-aware complete-thought translation, reviewed-table finalization, subtitle QA, approved terminology retrieval, learning candidates, translation-memory migration, governed promotion, and rollback.
+description: Translate, review, validate, and safely learn from Chinese-to-English SRT subtitles while preserving source cue IDs, timestamps, encoding, BOM, newlines, and boundaries. Use for PUREFAITH/纯信科技 factory and corporate short videos, verified English SRT plus bilingual XLSX delivery, context-aware complete-thought translation, reviewed-table finalization, subtitle QA, approved terminology retrieval, learning candidates, translation-memory migration, governed promotion, rollback, corpus collection, and direct-delivery qualification.
 ---
 
 # Chinese SRT to Business-Approved English
@@ -38,6 +38,11 @@ spoken English that needs minimal business review.
   `references/protocols/review-learning.md` completely. Do not learn or promote
   anything during a simple delivery task.
 
+- For corpus collection, blind evaluation, or requests to skip business review,
+  read `references/protocols/corpus-direct-delivery.md`. Keep corpus files local.
+  Use its topic qualification and semantic checks before reporting direct-ready
+  status. Report targeted review items if qualification or evidence is missing.
+
 ## Enforce the non-negotiable rules
 
 - Preserve cue IDs, raw timestamps, order, cue count, timing settings, encoding,
@@ -45,7 +50,8 @@ spoken English that needs minimal business review.
 - Read the complete cue sequence before translating.
 - Reconstruct each complete thought across contiguous cues.
 - Translate the complete thought naturally, then redistribute English across
-  the same cue IDs.
+  the same cue IDs. Read back in playback order and check each cue's display
+  duration using the split and reading-speed rules in `translation.md`.
 - Preserve speaker perspective, facts, process order, material numbers, units,
   currencies, names, and terminology.
 - Evaluate number preservation across the complete thought group; allow a

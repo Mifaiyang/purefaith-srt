@@ -51,7 +51,12 @@ English-only spreadsheet, or a manually assembled workbook.
 
 5. Read `output/delivery-report.json`. Deliver files only when `passed` is
    `true`, `source_bound` is `true`, every value under `checks` is `true`, and
-   the cue count matches the source.
+   the cue count matches the source. Inspect reading-speed warnings in
+   `final-validation.json`. Read the English in cue order as described in
+   `translation.md`; combine this with the source-to-draft check when required.
+   Use one `prepare` and one `deliver` on the happy path. Avoid separate
+   apply/export/audit commands before `deliver`. When a group needs repair,
+   update only that group and rerun `deliver` to keep the SRT and XLSX in sync.
 
 ## Translation contract
 
