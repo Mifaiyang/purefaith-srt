@@ -109,6 +109,14 @@ python scripts/srt_translate_helper.py propose-learn work/review-clean.xlsx --so
 
 Treat `learn` as a compatibility alias for `propose-learn`.
 
+Read each edited cue with its full thought group, including unchanged
+neighbors. Check for duplicated connectors, inconsistent perspective,
+unsupported product claims, and reading-speed regressions introduced by
+individual cell edits. Keep the original workbook as evidence. If the source
+hash cannot be verified, retain the workbook as local development feedback
+and use it to improve general guidance. Resume candidate ingestion only
+when the matching original SRT is available and strict audit passes.
+
 Include only valid, intentional corrections where the approved final differs
 from the draft. Exclude:
 

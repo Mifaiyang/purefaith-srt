@@ -99,6 +99,23 @@ Treat approved wording as contextual evidence, not as a universal substitution.
 When a retrieved example conflicts with the present meaning, translate the
 present meaning and record no memory use.
 
+### Apply product-demo terminology in context
+
+- Use the confirmed model name and approved product wording. If the Chinese
+  describes how movement feels, preserve the comparison. An air-cushion feel
+  does not establish that the seat contains an air bladder. Keep the direction
+  of motion and the part that moves explicit. Preserve qualified benefits such
+  as "can help ease discomfort" without adding a medical or performance claim.
+- For product demonstrations, distinguish how the user faces or sits from
+  changes to the chair itself. Use the supplied footage or product reference
+  if the motion is ambiguous. Keep a consistent audience perspective across
+  the full thought. Treat feedback on a product feature name as scoped to that
+  model until the approved terminology evidence supports broader use.
+- Short cues in a product reveal work best with a compact lead-in. For three
+  fixed slots of roughly 0.6, 0.7, and 1 second, try "Meet / our chair /
+  [model name]" if the introduction fits the speaker's voice. Check the
+  actual model name length and display time.
+
 ## 5. Write a bound translation artifact
 
 Prefer the v2 envelope:
